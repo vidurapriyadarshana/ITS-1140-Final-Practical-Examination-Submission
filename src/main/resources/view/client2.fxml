@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="edu.vidura.inclass.controller.Client2Controller"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <TextArea fx:id="chatArea" layoutX="20" layoutY="20" prefHeight="300.0" prefWidth="560.0"
+              wrapText="true" editable="false"/>
+
+    <TextField fx:id="messageField" layoutX="20" layoutY="330" prefWidth="460.0"/>
+
+    <Button layoutX="490.0" layoutY="330.0" text="Send" onAction="#sendMessage"/>
+</AnchorPane>
